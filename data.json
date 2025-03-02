@@ -1,0 +1,50 @@
+{
+    "profil": {
+      "nom": "Lamine NDAO",
+      "titre": "Data Scientist Researcher (R&D)",
+      "photo": "images/profil.png"
+    },
+    "competences": [
+      "Machine Learning, Deep Learning, NLP, IA Explicable (XAI)",
+      "Python, R, SQL, Spark, MLOps",
+      "Analyse de données et modélisation prédictive"
+    ],
+    "projets": [
+      "Prédiction de durée de vie des moteurs (RUL)",
+      "Analyse NLP pour les publications sur XAI",
+      "Détection d’anomalies en maintenance prédictive"
+    ],
+    "publications": [
+      {
+        "titre": "Enhancing Explainability in Predictive Maintenance",
+        "conference": "FLAIRS-37, 2024"
+      },
+      {
+        "titre": "Consensus de partitions en NLP",
+        "conference": "SFC'2023"
+      },
+      {
+        "titre": "Systematic review on XAI bias and fairness",
+        "conference": "CNIA'2023"
+      },
+      {
+        "titre": "Improving predictive maintenance",
+        "conference": "Engineering Applications of AI, 2025"
+      }
+    ],
+    "enseignement": [
+      {
+        "cours": "CNAM - Module STA101",
+        "description": "Analyse de données et algèbre linéaire"
+      },
+      {
+        "cours": "CNAM - Module STA211",
+        "description": "Apprentissage profond et fouille de données"
+      },
+      {
+        "cours": "LINEACT-CESI",
+        "description": "Workshops sur réseaux de neurones (CNN, RNN, Auto-encodeurs)"
+      }
+    ]
+  }
+  

@@ -4,29 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Lamine NDAO</title>
-    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">🏠 Accueil</a></li>
+            <li><a href="#cv">📄 CV</a></li>
+            <li><a href="#competences">💡 Compétences</a></li>
+            <li><a href="#projets">🚀 Projets</a></li>
+            <li><a href="#publications">📚 Publications</a></li>
+            <li><a href="#enseignement">🎓 Enseignement</a></li>
+            <li><a href="#contact">📞 Contact</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
-        <div class="profile">
-            <img src="images/profile-pic-3.png" alt="Photo de profil">
-            <h1>Lamine NDAO</h1>
-            <p>Data Scientist Researcher (R&D) | IA & Maintenance Prédictive</p>
-        </div>
+        <!-- Section Accueil -->
+        <section id="accueil">
+            <div class="profile">
+                <img id="profile-img" src="" alt="Photo de profil">
+                <h1 id="profile-name"></h1>
+                <p id="profile-title"></p>
+            </div>
+        </section>
 
-        <a class="btn" href="mon_cv.pdf" download>📥 Télécharger le CV</a>
+        <!-- Section CV -->
+        <section id="cv">
+            <h2>📄 Mon CV</h2>
+            <a class="btn" href="mon_cv.pdf" download>📥 Télécharger le CV</a>
+            <div class="cv-container">
+                <iframe src="mon_cv.pdf"></iframe>
+            </div>
+        </section>
 
-        <div class="cv-container">
-            <iframe src="mon_cv.pdf"></iframe>
-        </div>
+        <!-- Section Compétences -->
+        <section id="competences">
+            <h2>💡 Compétences</h2>
+            <ul id="competence-list"></ul>
+        </section>
 
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/mlndao" target="_blank">🔗 LinkedIn</a>
-            <a href="https://github.com/laminendao" target="_blank">💻 GitHub</a>
-            <a href="https://laminendao.github.io/Myportfolio/" target="_blank">🌍 Portfolio</a>
-        </div>
+        <!-- Section Projets -->
+        <section id="projets">
+            <h2>🚀 Projets</h2>
+            <ul id="projet-list"></ul>
+        </section>
+
+        <!-- Section Publications -->
+        <section id="publications">
+            <h2>📚 Publications</h2>
+            <ul id="publication-list"></ul>
+        </section>
+
+        <!-- Section Enseignement -->
+        <section id="enseignement">
+            <h2>🎓 Enseignement</h2>
+            <ul id="enseignement-list"></ul>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>📞 Contact</h2>
+            <p>Email : <a href="mailto:mlndao@outlook.com">mlndao@outlook.com</a></p>
+        </section>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
